@@ -29,6 +29,7 @@ User's account is created and redirected to log in page
 - User briefly reads paragraph, enters display name, email and password
 - Any appropriate prompts and error messages are displayed underneath the fields
 - User clicks sign up, once successful user is redirected to login page
+- If user has another account on the network, enter the add from existing site use case
 
 ----
 

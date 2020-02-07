@@ -20,8 +20,8 @@ User is signed in and back on the original page
 ----
 **Basic flow**
 
-- User sees "sign in to answer this question" link/button and clicks.
-- User enters "Authenticaion (direct)" workflow.
+- User sees "log in or sign up to answer this question" link/button and clicks.
+- User enters "Authentication (direct)" workflow.
 - Upon exit, user is signed-in and the page now shows an answer textbox.
 
 ----
