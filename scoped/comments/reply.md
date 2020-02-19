@@ -22,7 +22,7 @@ None (this use case addresses users with and without necessary trust level).
 
 **Termination outcome**
 
-Trusted user: comment is posted.  
+Trusted user: comment is posted, notifications possible.  
 Untrusted user: message displayed about not being able to comment yet.
 
 Either way, user is on the same page, and if a new comment was posted, thread is expanded such that new comment is visible.
@@ -38,6 +38,7 @@ Case 1: reply in thread (user is trusted)
 - Textbox appears (consider help text or pop-up for new users).
 - User types comment.  As the length limit approaches, a "countdown" appears so user knows when a comment is getting too long.  (Example: Twitter.)
 - User selects "add" control.  If comment is too long, show message saying so and leave the user in the edit state.  Otherwise, post comment and display in place.  **Note:** this might insert the new comment somewhere other than the end, if reply chains within a thread have forked.  Or do we want comments to be posted in strict time order within threads (ignore sub-threads becuase we're not formatting them)?
+- See also "notifications".
 
 Case 2: reply to top-level comment where thread is collapsed (user is trusted)
 - User selects "reply".
@@ -49,11 +50,26 @@ Case 3: user is not trusted
 - User selects "reply".
 - A message appears about not having the comment privilege yet, with a link to the help on trust levels.
 
+Notifications: the following people receive a notification of the new comment:
+- person being replied to
+- person who started the thread (i.e. poster of the top-level comment) (can be muted)
+- post author (can be muted)
+
+For future consideration: *aggregate* notification to question author if post is an answer, so instead of getting pinged on every comment in every thread on every answer, you get a roll-up notification about comments on answer by SoAndSo (one per answer) no more often than, say, once an hour.  This is not MVP!
+
+
 ----
 
 **Notes**
 
 We need to craft the messages/guidance for the user to both convey information and be friendly.  Text in this use case is the gist, not the literal messages.
+
+----
+
+**Related use cases**
+
+comments/mute.md
+comments/moderate.md
 
 
 

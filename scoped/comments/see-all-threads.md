@@ -35,6 +35,8 @@ All top-level comments are visible with their reply counts.
 
 Should there be a way to collapse threads (a "collapse everything" control)?  If so, should it always be present, even if the thread count didn't exceed the limit?
 
+If the user's trust level allows seeing archived threads, they are shown but with a visual indicator of their status.
+
 ----
 
 **Related use cases**
