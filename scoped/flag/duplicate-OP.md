@@ -43,7 +43,7 @@ Author has responded to the suggestion and page has been updated.
 
     - If user clicks the edit link:
         - It's the usual edit interface, except that "My question is not a duplicate of (link) because" has been inserted at the bottom and (ideally) the cursor is positioned there.  If there's more than one dupe suggestion, do this for each and position cursor at the first.
-        - When user submits the edit, the duplicate notice is removed from the question (for all viewers).
+        - When user submits the edit, the duplicate notice is removed from the question (for all viewers) but logged in the history.
 
     - If user does not edit: "possible duplicate" notice remains for all users.  The edit notice remains for the author (so the author can come back and edit later).
 

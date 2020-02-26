@@ -40,3 +40,4 @@ Page updated (for flagger) to indicate that a flag/vote has been cast.
 
 Yes, "duplicate" is intentionally not part of a "close" flow.  Duplicates are different and should be thought of as helping to get to an answer faster, not shutting a question down.
 
+For front-end designers: assume that friendly message to the OP is 2-3 sentences, not just a one-liner, plus the comment(s).

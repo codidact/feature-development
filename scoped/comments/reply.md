@@ -36,6 +36,7 @@ Case 1: reply in thread (user is trusted)
 - User has previously expanded a thread.
 - User selects "reply" control on some comment in that thread.
 - Textbox appears (consider help text or pop-up for new users).
+- If user has 5 or fewer comments left for the day, show a notice with number remaining.
 - User types comment.  As the length limit approaches, a "countdown" appears so user knows when a comment is getting too long.  (Example: Twitter.)
 - User selects "add" control.  If comment is too long, show message saying so and leave the user in the edit state.  Otherwise, post comment and display in place.  **Note:** this might insert the new comment somewhere other than the end, if reply chains within a thread have forked.  Or do we want comments to be posted in strict time order within threads (ignore sub-threads becuase we're not formatting them)?
 - See also "notifications".
