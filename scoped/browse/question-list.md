@@ -35,3 +35,11 @@ Upon spotting an interesting post, user clicks to read the individual post.  (Po
 
 User continues browsing (iterating above steps).  Upon reaching the bottom of the page, user sees pagination controls and chooses "next page" or a specific page number among those shown.
 
+----
+
+**Notes**  
+
+User might decide to expand a post in place: expand-question.md.
+
+User might reach this page by browsing categories: categories.md.
+
