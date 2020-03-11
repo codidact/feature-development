@@ -1,25 +1,25 @@
-**Name**
+**Name**  
 Respond to on-hold notice/status (as owner)
 
 ----
 
-**Actor**
+**Actor**  
 Question author
 
 ----
 
-**Subject area**
+**Subject area**  
 Question that has received a hold vote.  
 oInbound navigation could be from a notification or from normal browsing.
 
 ----
 
-**Preconditions**
+**Preconditions**  
 Somebody has voted to put the question on hold (see hold.md).
 
 ----
 
-**Termination outcome**
+**Termination outcome**  
 Author has responded to the suggestion and page has been updated.
 
 ----
@@ -30,7 +30,8 @@ Author has responded to the suggestion and page has been updated.
 
 - If user chooses edit: 
     - It's the usual edit interface but make sure the hold notice is visible on the page too (so the user can consult it).
-    - When user submits the edit, the hold notice is removed (for all viewers) but logged in the history.
+    - If the user is TL2, when user submits the edit, the hold notice is removed (for all viewers) but logged in the history.
+    - If the user is TL0 or TL1, the hold notice remains and the user sees a message along the lines of "thanks for your edit; the community will review to see if that addresses the issue" (not those words).
 
 - If user chooses withdraw:
     - Question is put on hold (no more answers) and "[withdrawn]" is added to end of title.
