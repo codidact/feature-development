@@ -1,23 +1,25 @@
-**Name**
+**Name**  
 Edit a question that is on hold
 
 ----
 
-**Actor**
+**Actor**  
 Any user.
 
-**Subject area**
+----
+
+**Subject area**  
 Question that is currently on hold.
 
 ----
 
-**Preconditions**
+**Preconditions**  
 None
 
 ----
 
-**Termination outcome**
-...
+**Termination outcome**  
+
 
 ----
 
@@ -36,5 +38,8 @@ None
 
 - If user is below TL3:
     - Treat as ordinary edit; does not affect hold status.
+    - Edit reviewers are shown a notice to the effect that this question has active hold votes and if the edit addresses the problem, cast an open vote.  (This will be further specified in the review-edit use case.)
+
+
 
 

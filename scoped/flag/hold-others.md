@@ -1,24 +1,24 @@
-**Name**
+**Name**  
 Respond to on-hold notice/status (not as owner)
 
 ----
 
-**Actor**
+**Actor**  
 User with TL3 (vote to close) who is not the author.
 
 ----
 
-**Subject area**
+**Subject area**  
 Question that has received a hold vote.  
 
 ----
 
-**Preconditions**
-Somebody has voted to put the question on hold (see hold.md).
+**Preconditions**  
+Somebody has voted to put the question on hold (see hold.md).  The author might have edited in response (see hold-OP.md).
 
 ----
 
-**Termination outcome**
+**Termination outcome**  
 Page updated (for user) to indicate that a vote has been cast.  
 If vote threshold reached, question is put on hold (see below).
 
@@ -26,7 +26,7 @@ If vote threshold reached, question is put on hold (see below).
 
 **Basic flow**
 
-- User sees hold-votes notice on the question, along with "can't be answered" control (as usual) and "disagree" control.
+- User sees hold-votes notice on the question, along with "can't be answered" control (as usual) and "disagree" control.  If the OP has edited since the first vote was cast, notice includes that info.
 - If user chooses "can't be answered": same flow as hold.md.
 - If user chooses "disagree" control, "open" vote is recorded.
 
