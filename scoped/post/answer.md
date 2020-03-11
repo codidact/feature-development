@@ -9,7 +9,7 @@ Signed-in user
 ----
 
 **Subject area**  
-Any question page
+Any open question page
 
 ----
 
@@ -26,6 +26,12 @@ User is on the starting question page viewing the new answer.
 **Basic flow**
 
 - User reads the question and (ideally) the other answers, reaching the bottom of the page.
+
+- If the question has a pending duplicate suggestion:
+  - Before the "add answer" control, user sees notice like: "This question has been marked as a possible duplicate. Before you answer, please check the other question to see if your answer fits better there."
+
+- If the question has pending hold votes:
+  - Before the "add answer" control, User sees notice like "This question might {need more information, not be on-topic}.  Please review the question before answering,"
 
 - User selects the "add answer" control (button?).
 
