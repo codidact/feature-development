@@ -10,7 +10,7 @@ Question author
 
 **Subject area**  
 Question that has received a hold vote.  
-oInbound navigation could be from a notification or from normal browsing.
+Inbound navigation could be from a notification or from normal browsing.
 
 ----
 
@@ -30,8 +30,8 @@ Author has responded to the suggestion and page has been updated.
 
 - If user chooses edit: 
     - It's the usual edit interface but make sure the hold notice is visible on the page too (so the user can consult it).
-    - If the user is TL2, when user submits the edit, the hold notice is removed (for all viewers) but logged in the history.
-    - If the user is TL0 or TL1, the hold notice remains and the user sees a message along the lines of "thanks for your edit; the community will review to see if that addresses the issue" (not those words).
+    - If the user is TL2, when user submits the edit, the hold notice is removed (for all viewers) but logged in the history.  (But see next item.)
+    - If the user is TL0 or TL1, or the user has previously edited in response to a hold notice and the question got another hold vote after the edit, the hold notice remains and the user sees a message along the lines of "thanks for your edit; the community will review to see if that addresses the issue" (not those words).
 
 - If user chooses withdraw:
     - Question is put on hold (no more answers) and "[withdrawn]" is added to end of title.
@@ -41,7 +41,7 @@ Author has responded to the suggestion and page has been updated.
 
 **Notes**
 
-Yes, any edit by the OP counters the hold.  This could be abused and maybe we'll need to impose an "amount of diff" limit later, but let's start with this and assume that most edits are well-intentioned.  People can vote again or flag for moderator attention if a real problem is brewing.
+Yes, any edit by the OP, if not a new or inexperienced user, counters the hold.  This could be abused and maybe we'll need to impose an "amount of diff" limit later, but let's start with this and assume that most edits are well-intentioned.  People can vote again or flag for moderator attention if a real problem is brewing.  Also, the OP can remove hold status via an edit only once; if the first edit wasn't good (the question got another hold vote), further edits can't change the question's status.
 
 Should withdrawn questions be removed from the default question list?  
 Should answerers be notified of the change in state?

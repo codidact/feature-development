@@ -20,7 +20,8 @@ Somebody has voted to put the question on hold (see hold.md).  The author might 
 
 **Termination outcome**  
 Page updated (for user) to indicate that a vote has been cast.  
-If vote threshold reached, question is put on hold (see below).
+If vote threshold reached, question is put on hold (see below).  
+If the user took action, it counts as a review.  
 
 ----
 
@@ -33,7 +34,7 @@ If vote threshold reached, question is put on hold (see below).
 - If question now has enough votes to put on hold:
     - Question is put on hold (no more answers) and "[on hold]" is added to end of title.
     - Notice is updated to say that this question was put on hold by the community because (insert reasons that were already shown, as before) and is awaiting an edit.
-    - Notification of the state change is sent to all answerers.
+    - Notification of the state change is sent to the OP and all answerers.
 
 - If number of open votes now equals number of hold votes:
   - Hold notice is removed (for all viewers) but logged in the history.

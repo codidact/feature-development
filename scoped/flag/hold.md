@@ -30,10 +30,10 @@ Page updated (for user) to indicate that a vote has been cast.
 - User chooses "can't be answered" control.  (That is not a literal text string; we need to think how to convey this.)
 
 - User is presented with choices and guidance for how to use them:
-  - Needs your attention + textbox (required)
-  - Off topic + textbox (optional)
+  - Needs your attention, with sub-choices (see Notes) and a textbox
+  - Off topic + textbox
 
-- User chooses an option, writes an explanation in the textbox, and submits.
+- User chooses an option, optionally writes an explanation in the textbox, and submits.
 
 - Page updates:
   - For the user: "can't answer" control changes to indicate you've already done this.
@@ -50,10 +50,14 @@ Page updated (for user) to indicate that a vote has been cast.
 
 Yes, "duplicate" is intentionally not part of a "close" flow.  See duplicate.md.
 
+The "needs your attention" option offers further choices (no more than five), with explanations:
+  - too broad
+  - missing information
+  - unclear what you're asking
+  - (others?)
+
 Reference: https://forum.codidact.org/t/question-closure-in-mvp/106/32?u=cellio
 
 For front-end designers: assume that friendly message to the OP is 2-3 sentences, not just a one-liner, plus the comment(s).
-
-Maybe the "needs attention" and "off topic" reasons should expand to offer some baked-in specific cases.  This needs more thought.
 
 Anonymous close reasons are an experiment, to be evaluated after some use.

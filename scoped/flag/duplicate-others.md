@@ -19,7 +19,8 @@ Somebody has suggested that the question is a duplicate (see duplicate.md), and 
 ----
 
 **Termination outcome**  
-Page updated to either confirm or remove the duplicate notice.
+Page updated to either confirm or remove the duplicate notice.  
+If the user took action, it counts as a review.  
 
 ----
 
