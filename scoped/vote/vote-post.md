@@ -1,25 +1,25 @@
-**Name**
+**Name**  
 Vote on a post
 
 ----
 
-**Actor**
-Any signed-in user 
+**Actor**  
+Any signed-in user  
 (reminder: TL0 to upvote answers to own question, TL1 to upvote, TL2 to downvote)
 
 ----
 
-**Subject area**
+**Subject area**  
 Individual question page.
 
 ----
 
-**Preconditions**
+**Preconditions**  
 None (privilege and already-voted cases are addressed in the flow section).
 
 ----
 
-*Termination outcome**
+**Termination outcome**  
 Vote is recorded and shown on the page.
 
 ----
