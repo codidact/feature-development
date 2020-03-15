@@ -1,25 +1,25 @@
-**Name**
+**Name**  
 Create post
 
 ----
 
-**Actor** 
+**Actor**  
 Signed-in user
 
 ----
 
-**Subject area**
+**Subject area**  
 Any
 
 ----
 
-**Preconditions** 
+**Preconditions**  
 User is signed in and permitted to post (TL2+, or TL0/1 and not
 rate-limited).
 
 ----
 
-**Termination outcome**
+**Termination outcome**  
 User is on question/post page for the now-posted item.
 
 ----
