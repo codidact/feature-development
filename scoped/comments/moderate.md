@@ -1,27 +1,24 @@
-**Name**
+**Name**  
 Moderate comments
 
 ----
 
-**Actor**
-User with moderator trust level.  (This use case is not about raising flags but handling them and/or deleting/locking comments/threads.)
+**Actor**  
+User with moderator trust level (TL5).  (This use case is not about raising flags but handling them and/or deleting/locking comments/threads.)
 
 ----
 
-**Subject area**
-
+**Subject area**  
 Post with comment thread(s).
 
 ----
 
-**Preconditions**
-
+**Preconditions**  
 Moderator privilege.
 
 ----
 
-**Termination outcome**
-
+**Termination outcome**  
 Comment state updated as applicable.
 
 ----
@@ -41,4 +38,8 @@ Option 2: archive thread (applies only to whole thread)
 - User clicks on "archive thread" control next to a thread (can be expanded or collapsed).
 - If this is the first time, show message: archived threads are still visible to users at trust level (whatever) but are not shown by default; if you want it to be gone, delete instead (ok/cancel).
 - Thread state changed to archived: no new replies, has some visual indicator of status when shown.
+
+Option 3: preserve comment
+- User clicks on the "decline" control next to a flagged comment.
+- Flag is dismissed and flag indicator for that comment is changed to the "not flagged" state.
 
