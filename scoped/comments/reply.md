@@ -49,7 +49,11 @@ Case 2: reply to top-level comment where thread is collapsed (user is trusted)
 
 Case 3: user is not trusted
 - User selects "reply".
-- A message appears about not having the comment privilege yet, with a link to the help on trust levels.
+- A message appears about not having the comment privilege yet, with a link to the help on trust levels.  Special case: for TL0 the message needs to say that you don't have the privilege yet to comment on *others'* posts, because even at TL0 you can comment on your own posts.
+
+Case 4: user is TL1, so trusted but rate-limited, and has reached the daily limit:
+- User selects "reply".
+- A message appears about the daily limit on number of comments, with a link to the help on trust levels.
 
 Notifications: the following people receive a notification of the new comment:
 - person being replied to

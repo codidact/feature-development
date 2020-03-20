@@ -1,25 +1,24 @@
-**Name**
+**Name**  
 Propose edit
 
 ----
 
-**Actor**
+**Actor**  
 User with a trust level that does not support direct editing.
 
 ----
 
-**Subject area**
-
+**Subject area**  
 Any post page (e.g. question page).
 
 ----
 
-**Preconditions**
+**Preconditions**  
 None
 
 ----
 
-**Termination outcome**
+**Termination outcome**  
 Edit is submitted successfully; page is refreshed with original content and a "your edit suggestion has been submitted" message.  Message contains a link to the edit (like what reviewers would see).
 
 ----
