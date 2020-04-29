@@ -1,25 +1,24 @@
-**Name**
+**Name**  
 Propose edit
 
 ----
 
-**Actor**
+**Actor**  
 User with a trust level that does not support direct editing.
 
 ----
 
-**Subject area**
-
+**Subject area**  
 Any post page (e.g. question page).
 
 ----
 
-**Preconditions**
+**Preconditions**  
 None
 
 ----
 
-**Termination outcome**
+**Termination outcome**  
 Edit is submitted successfully; page is refreshed with original content and a "your edit suggestion has been submitted" message.  Message contains a link to the edit (like what reviewers would see).
 
 ----
@@ -32,6 +31,10 @@ Edit is submitted successfully; page is refreshed with original content and a "y
 - User writes an edit reason in the textbox for that purpose.  (There should be some text explaining briefly what makes a good edit message.)
 - User chooses "submit edit" control.
 - Page refreshes as described in "outcome" above.
+
+Other effects:
+- Owner of post is notified of pending edit.
+- On question page, "edit" link is replaced by "pending edit".  Clicking leads to a "review edit" page TBD.
 
 ----
 
