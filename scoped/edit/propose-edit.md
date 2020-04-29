@@ -32,6 +32,10 @@ Edit is submitted successfully; page is refreshed with original content and a "y
 - User chooses "submit edit" control.
 - Page refreshes as described in "outcome" above.
 
+Other effects:
+- Owner of post is notified of pending edit.
+- On question page, "edit" link is replaced by "pending edit".  Clicking leads to a "review edit" page TBD.
+
 ----
 
 **Note**
