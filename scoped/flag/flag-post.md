@@ -52,3 +52,4 @@ The "needs attention" and "off topic" post flags don't include sub-reasons like 
 
 We aren't preventing somebody from raising more than one flag type on a post.  We are not supporting revoking or switching flags for MVP.
 
+Wireframe: https://www.figma.com/file/WBtO6UJ7Mi832OOH0Ny0gV/post-flags?node-id=0%3A1
