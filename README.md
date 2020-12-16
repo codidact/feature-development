@@ -9,4 +9,4 @@ This is the location where all formal work will be stored that will document the
 
 This is in essence, the design process of Codidact, as a result this is incredibly important work so great effort has been made to provide a structured, sound approach and methodology to ensure we can both act with agency and also allow the community already growing around us to contribute - even if they aren't 'designers'.
 
-**Read the [CONTRIBUTING.md](#) to get a firm idea of what this process is.** Yes, it's a bit wordy, but it outlines how this crucial aspect of product development will be successful, and we are doing our best to make sure you can be a part of it.
+**Read the [CONTRIBUTING.md](https://github.com/codidact/feature-development/blob/master/CONTRIBUTING.md) to get a firm idea of what this process is.** Yes, it's a bit wordy, but it outlines how this crucial aspect of product development will be successful, and we are doing our best to make sure you can be a part of it.
