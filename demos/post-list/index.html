@@ -13,26 +13,24 @@
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <header class="top-bar">
-    <a href="#" class="site-title"><h1></h1><strong>meta</strong>.codidact.com</h1></a>
-    <ul class="top-bar__menu">
-      <li class="top-bar__menu--item"><a href="#">users</a></li>
-      <li class="top-bar__menu--item"><a href="#">help</a></li>
-      <li class="top-bar__menu--item"><a href="#">sign out</a></li>
-    </ul>
-  </header>
   <div class="site-header">
     <div class="site-logo__wrapper">
-      <div class="site-logo"><img src="/img/meta_logo.svg" width="118" height="42" /></div>
+      <div class="site-logo"><img src="img/meta_logo.svg" width="118" height="42" /></div>
     </div>
     <div class="user-menu__wrapper">
+      <div class="top-bar__menu">
+        <div class="top-menu__help"><a href="#"><img src="img/help.png"  width="45" height="40"></a></div>
+        <div class="top-menu__user"><a href="#"><img src="img/profile-user.png" width="45" height="40"></a></div>
+      </div>
       <div class="user-menu">
-        <div class="user-menu__profile"><a href="#"><img src="/img/user_profile_img.jpg" width="44.5" height="44.5" /></a></div>
+        <div class="user-menu__profile"><a href="#"><img src="img/user_profile_img.jpg" width="44.5" height="44.5" /></a></div>
         <div class="user-menu__points"><p>1244</p></div>
         <div class="user-menu__inbox">
           <button>
-            <img src="/img/inbox.svg" width="42" height="26" /></div>
+            <img src="img/inbox.svg" width="42" height="26" />
           </button>
+        </div>
+        <div class="user-menu__logout"><a href="#"><img src="img/logout.png"></a></div>
       </div>
     </div>
   </div>
